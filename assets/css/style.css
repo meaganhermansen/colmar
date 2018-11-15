@@ -1,0 +1,300 @@
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Rubik Light'), local('Rubik-Light'), url(https://fonts.gstatic.com/s/rubik/v7/iJWHBXyIfDnIV7Fqj2md8WD07oB-.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rubik'), local('Rubik-Regular'), url(https://fonts.gstatic.com/s/rubik/v7/iJWKBXyIfDnIV7nBrXyw023e.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Rubik Medium'), local('Rubik-Medium'), url(https://fonts.gstatic.com/s/rubik/v7/iJWHBXyIfDnIV7Eyjmmd8WD07oB-.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Rubik Bold'), local('Rubik-Bold'), url(https://fonts.gstatic.com/s/rubik/v7/iJWHBXyIfDnIV7F6iGmd8WD07oB-.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+html {
+  font-size: 18px;
+  font-family: Rubik;
+
+}
+
+strong {
+  font-weight: 700;
+  color: black;
+}
+
+.container {
+  display: flex;
+  margin: 0 24px;
+  justify-content:space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+.flex{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding-bottom: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: #464646;
+}
+
+h2{
+  font-size: 44px;
+  font-weight: 500;
+  color:#185442;
+  line-height: 0.8;
+  padding-bottom: 24px;
+}
+
+/* Header  */
+
+#header {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  height: 64px;
+
+}
+
+.logo {
+  display: flex;
+}
+
+.logo span {
+  padding-left: .25rem;
+  font-size: 32px;
+  color: #464646;
+  letter-spacing: 1.5px;
+}
+
+li {
+  display:inline;
+  padding-left: 16px;
+}
+
+/* Banner section  */
+
+.banner {
+  background-color: #e9cf50;
+  width: 100%;
+}
+
+.banner img {
+  width: 60%;
+  margin: 32px 0;
+}
+
+.headline {
+  margin-left: 24px;
+  width: 28%;
+}
+
+.headline h1 {
+  font-size: 58px;
+  font-weight: 500;
+  color:#185442;
+  line-height: 0.8;
+  padding-bottom: 2.2rem;
+}
+
+.headline span{
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.button {
+  background-color: #185442;
+  color:white;
+  text-align: center;
+  padding: 8px;
+  margin: 2.2rem 0;
+}
+
+.button span {
+  font-size: 1rem;
+}
+
+/* Content Section  */
+
+.content {
+  margin: 32px 0;
+  width: 100%;
+  object-fit: contain;
+  overflow: scroll;
+
+}
+.main-image {
+  width: 60%;
+}
+
+.main-image img {
+  object-fit: contain;
+  object-position: left;
+  width:  100%;
+  padding-bottom: 32px;
+}
+
+.main-image p {
+  line-height: 1.7;
+  color: #464646;
+  width: 90%;
+  padding-bottom: 2rem;
+}
+
+.main-image span {
+  font-weight: 300;
+  color:#464646;
+  padding-top: 2rem;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 24px;
+  width: 40%;
+  border: 1px solid grey;
+
+
+
+
+}
+.tiles {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border: .5px solid grey;
+
+  margin-bottom:0.5rem;
+
+
+
+}
+
+.tiles img {
+  width: 35%;
+  height: auto;
+  padding: 16px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:65%;
+
+}
+
+.info {
+  width: 100%;
+
+}
+
+.info p {
+  margin-bottom: 8px;
+  line-height: 1.3;
+  font-size: 16px;
+}
+
+/* Learning  */
+
+.learning {
+  background-color: #45cea6;
+  padding: 32px;
+  text-align: center;
+}
+
+.learning h2 {
+  color: white;
+}
+
+.holder{
+  margin: 0 auto;
+  width: 100%;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.card {
+  background-color: white;
+  width: 30%;
+  margin-bottom: 32px;
+  margin-right: 16px;
+  margin-left: 16px;
+  text-align: left;
+
+}
+
+.card img {
+  width: 100%;
+  margin-bottom: 16px;
+
+}
+.course-info {
+  width: 85%;
+  margin-left: 16px;
+  margin-bottom: 24px;
+}
+
+.course-info p {
+  line-height: 1.3;
+}
+
+.courses {
+  font-weight: 300;
+  margin: 8px 0;
+}
+
+/* Thesis  */
+
+#thesis {
+  padding: 32px;
+  text-align: center;
+  width:100%;
+}
+.video {
+  width: 60%;
+  text-align: left;
+}
+video {
+  width:100%;
+  margin-bottom: 24px;
+}
+.video h3 p {
+  margin-bottom: 8px;
+
+}
