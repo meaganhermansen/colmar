@@ -9,28 +9,35 @@
   </head>
   <body>
 
-    <div id="header">
+    <header>
       <div class="container">
         <div class="logo">
           <img src="assets/images/ic-logo.svg">
           <span><strong>COLMAR</strong>ACADEMY</span>
         </div>
         <nav>
-          <ul>
+          <ul role="presentation">
             <li><a href="#">On campus</a></li>
             <li><a href="#">Online</a></li>
             <li><a href="#">Our companies</a></li>
             <li><a href="#">Sign in</a></li>
           </ul>
         </nav>
+        <div class="mobile nav" role="presentation">
+          <a href="#"><img src="assets/images/ic-logo.svg" alt="Logo"></a>
+          <a href="#"><img href="#" src="assets/images/ic-on-campus.svg" alt="On Campus"></a>
+          <a href="#"><img href="#" src="assets/images/ic-online.svg" alt="Online"></a>
+          <a href="#"><img href="#" src="assets/images/ic-login.svg" alt="Login"></a>
+        </div>
+
       </div>
-    </div>
+    </header>
 
     <!--Banner-->
     <div class="banner">
 
         <div class="flex">
-          <img src="assets/images/banner.jpg">
+          <img src="assets/images/banner.jpg" alt="Students studying">
           <div class="headline">
             <h1>Learn something new everyday</h1>
             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
@@ -48,16 +55,17 @@
 
         <div class="main-image">
 
-          <img src="assets/images/information-main.jpg">
+          <img src="assets/images/information-main.jpg"  alt="A student reading">
           <h2>It doesn't hurt to keep practicing</h2>
           <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."</p>
           <span>Emanuel, Sr. Stratigist at Hiring.com</span>
         </div>
 
-        <div class="sidebar">
+        <div class="sidebar" role="presentation">
 
           <div class="tiles">
-            <img src="assets/images/information-orientation.jpg">
+            <img class="mobile" src="assets/images/information-orientation-mobile.jpg" alt="Students walking">
+            <img class="desk" src="assets/images/information-orientation.jpg"  alt="Students walking">
             <div class="center">
               <div class="info">
                 <h3>Orientation Date</h3>
@@ -68,7 +76,8 @@
           </div>
 
             <div class="tiles">
-              <img src="assets/images/information-campus.jpg">
+              <img class="mobile" src="assets/images/information-campus-mobile.jpg" alt="Classroom">
+              <img class="desk" src="assets/images/information-campus.jpg"  alt="Classroom">
               <div class="center">
                 <div class="info">
                   <h3>Our Campus</h3>
@@ -79,7 +88,8 @@
             </div>
 
             <div class="tiles">
-              <img src="assets/images/information-guest-lecture.jpg">
+              <img class="mobile" src="assets/images/information-guest-lecture-mobile.jpg" alt="Oliver Sack">
+              <img class="desk" src="assets/images/information-guest-lecture.jpg"  alt="Oliver Sack">
               <div class="center">
                 <div class="info">
                   <h3>Our Guest Lecture</h3>
@@ -96,12 +106,12 @@
 <!--Learning-->
 
     <div class="learning">
-      <h2>Start Learning</h2>
+      <h2>Start learning</h2>
       <div class="holder">
-        <div class="table">
+        <div class="table" role="presentation">
 
           <div class="card">
-            <img src="assets/images/course-software.jpg">
+            <img src="assets/images/course-software.jpg"  alt="computer screens">
             <div class="course-info">
               <h3>Software engineering</h3>
               <p class="courses">COURSES</p>
@@ -110,7 +120,7 @@
           </div>
 
           <div class="card">
-            <img src="assets/images/course-computer-art.jpg">
+            <img src="assets/images/course-computer-art.jpg" alt="Mobile phone screen">
             <div class="course-info">
               <h3>Computer art</h3>
               <p class="courses">COURSES</p>
@@ -119,7 +129,7 @@
           </div>
 
           <div class="card">
-            <img src="assets/images/course-design.jpg">
+            <img src="assets/images/course-design.jpg" alt="Person using a camera">
             <div class="course-info">
               <h3>Design</h3>
               <p class="courses">COURSES</p>
@@ -128,7 +138,7 @@
           </div>
 
           <div class="card">
-            <img src="assets/images/course-data.jpg">
+            <img src="assets/images/course-data.jpg" alt="Laptop screen with data charts">
             <div class="course-info">
               <h3>Data</h3>
               <p class="courses">COURSES</p>
@@ -137,7 +147,7 @@
           </div>
 
           <div class="card">
-            <img src="assets/images/course-business.jpg">
+            <img src="assets/images/course-business.jpg" alt="Chess board">
             <div class="course-info">
               <h3>Business</h3>
               <p class="courses">COURSES</p>
@@ -146,7 +156,7 @@
           </div>
 
           <div class="card">
-            <img src="assets/images/course-marketing.jpg">
+            <img src="assets/images/course-marketing.jpg" alt="Smart watch">
             <div class="course-info">
               <h3>Marketing</h3>
               <p class="courses">COURSES</p>
@@ -163,22 +173,22 @@
 
     <div id="thesis">
 
-      <h2>Thesis Exhibit</h2>
+      <h2>Thesis exhibit</h2>
       <div class="vessel">
 
         <div class="main-image">
           <video controls>
             <source src="assets/videos/thesis.mp4" type="video/mp4">
           </video>
-
+          <div class="text">
             <h3>Reimagine urban</h3>
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." </p>
-
+          </div>
         </div>
-        <div class="sidebar2">
+        <div class="sidebar2" role="presentation">
 
           <div class="tiles">
-            <img src="assets/images/thesis-fisma.jpg">
+            <img src="assets/images/thesis-fisma.jpg" alt="Student's homework layed out">
             <div class="center">
               <div class="info">
                 <h3>Fisma: Design and Prototype</h3>
@@ -188,7 +198,7 @@
           </div>
 
           <div class="tiles">
-            <img src="assets/images/thesis-now-and-then.jpg">
+            <img src="assets/images/thesis-now-and-then.jpg" alt="Empire state building">
             <div class="center">
               <div class="info">
                 <h3>Now and then</h3>
@@ -203,16 +213,16 @@
 
     <!--Footer-->
 
-    <div id="footer">
-      <div class="container">
+    <footer>
+      <div class="container" role="presentation">
         <span>© 2016 Colmar Academy. All rights reserved.</span>
         <div class="terms">
-          <ul>
+          <ul role="presentation">
             <li><a href="#">Terms</a></li>
             <li><a href="#">Privacy</a></li>
         </div>
       </div>
-    </div>
+    </footer>
 
 
   </body>
